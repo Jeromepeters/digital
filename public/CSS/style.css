@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body {
+  overflow: hidden;
+} */
+
+/*---------- navbar section---------- */
+.navbar {
+  color: white;
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  padding: 0 !important;
+  position: fixed;
+  top: 0;
+}
+.fa-bars {
+  color: white;
+  border: white;
+}
+li .nav-link {
+  color: white;
+  font-weight: 600;
+}
+li .nav-link:hover {
+  color: wheat;
+}
+.navbar-nav {
+  float: right;
+  text-align: right;
+}
+
+/* .dropdown-menu {
+  left: 30px;
+} */
+/*---------- navbar section---------- */
+#hero {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  color: white;
+}
+.title {
+  margin-top: 100px;
+}
+.col p {
+  font-weight: 600;
+  line-height: 1.5;
+}
+.fa-user {
+  color: white;
+}
+
+.play {
+  width: 4rem;
+  margin: 2.5rem 0;
+}
+#hero .wave {
+  width: 100%;
+}
+.service-btn {
+  font-weight: 600;
+  padding: 10px 20px;
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.abt-us-li {
+  margin-top: 10px;
+  margin-left: 80px;
+}
+
+/*---------- testimony section---------- */
+#testimonies {
+  font-weight: 600;
+  color: rgb(80, 80, 77);
+}
+.testimonies {
+  border-left: 5px solid #5f1782;
+}
+.user-img {
+  border-radius: 50%;
+  display: inline-block;
+}
+.description {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.username {
+  display: inline-block;
+}
+.social-icons {
+  width: 60px;
+}
+#social-media .container a:hover {
+  background-color: red;
+  transform: 10s ease translateY(-10px);
+}
